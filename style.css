@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+  height: auto;
+}
+
+.header {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 320px;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.baslik {
+  font-size: 24px;
+  color: hsl(229, 6%, 66%);
+  font-weight: 300;
+}
+
+.bolderThan {
+  color: hsl(234, 12%, 34%);
+}
+
+.text {
+  font-size: 15px;
+  color: hsl(229, 6%, 66%);
+  font-weight: 300;
+}
+
+.box1 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  border-top: 5px solid hsl(212, 86%, 64%);
+  height: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.imageBox {
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+}
+
+.boxTitle {
+  font-weight: 600;
+  font-size: large;
+  color: hsl(234, 12%, 34%);
+}
+.team {
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  border-top: 5px solid hsl(0, 78%, 62%);
+  height: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+}
+.karma {
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  border-top: 5px solid hsl(34, 97%, 64%);
+  height: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+}
+.box3 {
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  border-top: 5px solid hsl(180, 62%, 55%);
+  height: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+/* CSS MEDIA QUERIES */
+
+@media screen and (min-width: 1130px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .container {
+    width: auto;
+    height: auto;
+  }
+
+  .header {
+    display: flex;
+    box-shadow: none;
+    width: 400px;
+  }
+
+  .flexor {
+    display: flex;
+  }
+
+  .boxFlexor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
